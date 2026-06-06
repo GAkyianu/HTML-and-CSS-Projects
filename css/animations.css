@@ -1,0 +1,95 @@
+/* MENU SECTION ANIMATION */
+.menu {
+    color: #f00;
+    font: bold 0.750rem/1.125rem sans serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li {
+    color: #000;
+    background-color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    padding: 0.9375rem 4%;
+    border: 0.0625rem solid #9D9FA2;
+    box-shadow: 0.125rem 0.125rem 0.625rem 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 4s ease-in-out;
+}
+
+.menu li:hover {
+    color: #f00;
+    background-color: rgba(100, 65, 0, 0.3);
+}
+
+/* GALLERY SECTION ANIMATION */
+.photo {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-radius: 0.500rem;
+    padding: 0.0625rem;
+    border: 0.0625rem solid #ff0;
+    box-shadow: 0.125rem 0.125rem 0.625rem 0 rgba(0, 0, 0, 0.7);
+} 
+
+.photo-container {
+    text-align: center;
+    margin: 0.9375rem auto;
+    width: 18.75rem;
+    height: 10.5625;
+}
+
+.photo-container img {
+    max-width: 100%;
+    width: 18.75rem;
+    height: 10.5625;
+}
+
+.photo-overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-left: 1.250rem;
+    padding-right: 1.250rem;
+    justify-content: center; /* For centering text inside .photo-overlay */
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+}
+
+.white-head {
+    color: #C9BDAA;
+    margin-top: 5%;
+}
+
+/* Photo Overlay Transitions */
+.photo-overlay {
+    opacity: 0;
+    transition: opacity .5s;
+    border-radius: 0.625rem;
+    cursor: pointer;
+}
+
+.photo-overlay:hover {
+    opacity: 1;
+}
+
+.photo img {
+    transition: transform .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
