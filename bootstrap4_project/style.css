@@ -1,0 +1,42 @@
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar brand spacing */
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+/* Improve card visuals */
+.card {
+  border: none;
+  border-radius: 8px;
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Footer links */
+#deals a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#deals a:hover {
+  text-decoration: underline;
+}
+
+/* Signup form */
+form.shadow {
+  max-width: 450px;
+  margin: auto;
+}
+
+/* Improve spacing for sections */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
