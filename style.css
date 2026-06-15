@@ -1,0 +1,87 @@
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar brand spacing */
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+/* Responsive navbar search */
+.navbar form input {
+  min-width: 180px;
+}
+
+@media (max-width: 576px) {
+  .navbar form {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* Improve card visuals */
+.card {
+  border: none;
+  border-radius: 8px;
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Carousel spacing + alignment */
+#movieCarousel .card {
+  margin: 0 10px;
+}
+
+#movieCarousel .carousel-item {
+  padding: 20px 0;
+}
+
+/* Make carousel controls visible */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* Add spacing under Showtimes before carousel */
+#showtimes {
+  margin-bottom: 60px;
+}
+
+/* Footer links (corrected selector) */
+#footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+/* Signup form */
+form.shadow {
+  max-width: 450px;
+  margin: auto;
+}
+
+/* Signup section wrapper */
+#signup {
+  background: #f8f9fa;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Improve spacing for all containers */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Signup heading */
+#signup h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
