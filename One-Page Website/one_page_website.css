@@ -1,0 +1,100 @@
+/* GENERAL */
+body {
+    background-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+                 'Lucida Grande', 'Lucida Sans Unicode',
+                 Geneva, Verdana, sans-serif;
+}
+
+/* NAVIGATION */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    background: slateblue;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* GALLERY LAYOUT */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.column {
+    flex: 1 1 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.thumb {
+    width: 100%;
+    max-width: 150px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.thumb:hover {
+    transform: scale(1.05);
+}
+
+/* LIGHTBOX */
+#lightbox img {
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+/* FORM */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 40%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 2px solid slateblue;
+    border-radius: 8px;
+}
+
+.submit input[type="submit"] {
+    background: slateblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submit input[type="submit"]:hover {
+    background: indigo;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: slateblue;
+    color: white;
+}

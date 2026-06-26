@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delarose Ventures</title>
+    <link rel="stylesheet" href="one_page_website.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home-section">Jump to Home</a></li>
+            <li><a href="#gallery-section">Jump to Gallery</a></li>
+            <li><a href="#reservation-section">Jump to Reservation</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- GALLERY THUMBNAILS -->
+<div class="row">
+    <div class="column"><img src="./images/smallsize_01.png" class="thumb"></div>
+    <div class="column"><img src="./images/smallsize_02.png" class="thumb"></div>
+    <div class="column"><img src="./images/smallsize_03.png" class="thumb"></div>
+    <div class="column"><img src="./images/smallsize_04.png" class="thumb"></div>
+    <div class="column"><img src="./images/smallsize_05.png" class="thumb"></div>
+    <div class="column"><img src="./images/smallsize_06.png" class="thumb"></div>
+</div>
+
+<main>
+
+    <!-- HOME -->
+    <section id="home-section">
+        <h1>Delarose Ventures</h1>
+        <h2>Home</h2>
+        <p>Welcome to Delarose! This section gives you a run down of the services we offer to our valued customers.</p>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery-section">
+        <h2>Gallery</h2>
+        <p>This section is where you can see a few of the many fleet of cars that we have in stock.</p>
+
+        <div>
+            <img src="./images/fullsize_01.png" alt="Black luxury sedan front profile">
+            <div>
+                <h3>Click here to Enlarge</h3>
+                <p>Try us and you will be glad you did, book an appointment today.</p>
+            </div>
+        </div>
+
+        <p>Here is a video of the cars we have in our stock</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EEP5ruIjuG8?si=0OTi55eDpPUIzSKg" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                gyroscope; picture-in-picture; web-share" referrerpolicy=
+                "strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+    </section>
+
+    <!-- RESERVATIONS -->
+    <section id="reservation-section">
+        <h2>Reservations</h2>
+        <p>We are your one stop shop to all your automobile needs. Get in touch today.</p>
+        <p>Please provide us with your essential contact information</p>
+
+        <form action="#" method="post">
+            <div>
+                <label for="first-name">First Name</label>
+                <input id="first-name" name="first_name" class="rsvp" type="text" placeholder="First Name" required>
+            </div>
+
+            <div>
+                <label for="last-name">Last Name</label>
+                <input id="last-name" name="last_name" class="rsvp" type="text" placeholder="Last Name" required>
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input id="email" name="email" class="rsvp" type="email" placeholder="Email Address" required>
+            </div>
+
+            <div>
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone" class="rsvp" type="tel" placeholder="Phone Number" required>
+            </div>
+
+            <div class="form-spacer">
+                <input id="terms" name="terms_agreement" type="checkbox" required>
+                <label for="terms" class="terms">I accept the Terms and Conditions</label>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>www.delarose.space &nbsp; | &nbsp; &copy; 2026</p>
+</footer>
+
+<script src="JS/one_page_website.js"></script>
+
+</body>
+</html>
